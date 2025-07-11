@@ -108,7 +108,7 @@ nav .right a span {
   border-radius: 50%;
 }
 
-/* SECTION 2: Skills */
+/* SECTION 2: Current */
 .Current-section {
   padding: 0 50px;
   margin-bottom: 100px;
@@ -136,7 +136,7 @@ nav .right a span {
   align-items: center;
   gap: 10px;
 
-  width: 200px;
+  width: 800px;
   padding: 10px 20px;
   margin: 10px;
   border: 1.5px solid #d3d3d3;
