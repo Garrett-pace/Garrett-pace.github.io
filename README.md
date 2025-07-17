@@ -5,13 +5,13 @@ Welcome to my personal portfolio website! This project is designed to showcase w
 ---
 
 ## 🔗 Live Site
-You can view the live portfolio [here](https://your-live-site-url.com) *(replace with your actual hosted link)*
+You can view the live portfolio [here](https://garrett-pace.github.io)
 
 ---
 
 ## 📄 Overview
 
-This website is a simple and responsive portfolio built using **HTML**, **CSS**, and a bit of **JavaScript**. It contains multiple sections including:
+This website is a simple and responsive portfolio built using **HTML** and **CSS**. It contains multiple sections including:
 
 - **Home / About Me**  
   A short introduction of who I am, my interests, and the technologies I'm familiar with.
