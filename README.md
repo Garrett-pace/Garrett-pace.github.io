@@ -43,10 +43,12 @@ This website is a simple and responsive portfolio built using **HTML** and **CSS
 
 ## 📁 Folder Structure
 
-├── index.html # Main landing page
-├── projects.html # Secondary page for listing categorized projects
-├── styles.css # Main stylesheet
-├── images/ # Folder for logos and headshot
-│ ├── hero-headshot.webp
-│ ├── html-logo.webp
-│ └── ...other logos
+```
+├── index.html         # Main landing page
+├── projects.html      # Secondary page for listing categorized projects
+├── styles.css         # Main stylesheet
+├── images/            # Folder for logos and headshot
+│   ├── hero-headshot.webp
+│   ├── html-logo.webp
+│   └── ...other logos
+```
