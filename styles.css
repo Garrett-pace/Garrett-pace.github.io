@@ -59,7 +59,7 @@ nav .right a span {
   margin-left: 5px;
 }
 
-/* SECTION 1: Hero */
+/* SECTION: Hero */
 .hero-section {
   display: flex;
   justify-content: space-between;
@@ -108,7 +108,7 @@ nav .right a span {
   border-radius: 50%;
 }
 
-/* SECTION 2: Current */
+/* SECTION: Current */
 .Current-section {
   padding: 0 50px;
   margin-bottom: 100px;
@@ -154,7 +154,7 @@ nav .right a span {
   font-size: 18px;
 }
 
-/* SECTION 3: Skills */
+/* SECTION: Skills */
 .skills-section {
   padding: 0 50px;
   margin-bottom: 100px;
@@ -200,7 +200,49 @@ nav .right a span {
   font-size: 18px;
 }
 
-/* SECTION 4: Contact */
+/* SECTION: recommendation */
+.recommendation-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+
+.recommendation-section h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.recommendation-section .group {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.recommendation-section .group .person-details {
+  text-align: center;
+  flex: 2;
+}
+
+.recommendation-section .group .person-details img {
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.recommendation-section .group .person-details p {
+  font-weight: 600;
+}
+
+.recommendation-section .group .person-details p:last-child {
+  font-weight: normal;
+}
+
+.recommendation-section .group .text {
+  flex: 8;
+}
+
+/* SECTION: Contact */
 .contact-section {
   padding: 0 50px;
   margin-bottom: 100px;
@@ -253,14 +295,14 @@ nav .right a span {
 }
 
 @media (max-width: 850px) {
-  /* SECTION 1: Hero */
+  /* SECTION: Hero */
   .hero-section .text h2 {
     font-size: 35px;
   }
 }
 
 @media (max-width: 740px) {
-  /* SECTION 1: Hero */
+  /* SECTION: Hero */
   .hero-section {
     flex-direction: column-reverse;
   }
@@ -269,7 +311,16 @@ nav .right a span {
     width: 300px;
   }
 
-  /* SECTION 4: Contact */
+  /* SECTION: recommendation */
+  .recommendation-section {
+    text-align: center;
+  }
+
+  .recommendation-section .group {
+    flex-direction: column;
+  }
+
+  /* SECTION: Contact */
   .contact-section .group {
     flex-direction: column;
   }
@@ -311,6 +362,11 @@ nav .right a span {
 
   .skills-section .cells .cell span {
     font-size: 16px;
+  }
+
+  /* SECTION 3: recommendation */
+  .recommendation-section {
+    padding: 0 20px;
   }
 
   /* SECTION 4: Contact */
